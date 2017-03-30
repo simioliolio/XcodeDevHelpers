@@ -1,11 +1,11 @@
 ## Carthage folder? Should keep it, and put up with the duplication...
 ## Carthage/
 
-## Build generated
+## Xcode: Build generated
 build/
 DerivedData/
 
-## Various settings
+## Xcode: Various settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -16,7 +16,10 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
-## Other
+## Xcode: Other
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+
+## OSX
+.DS_Store
