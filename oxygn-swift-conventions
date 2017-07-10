@@ -1,6 +1,0 @@
-Work in progress...
-
-* Lower camel case for all variables.
-* Upper camel case for all class / protocol names.
-* XIB / Storyboard view named the same as class it represents
-* 'uw' prepended to unwrapped optional
