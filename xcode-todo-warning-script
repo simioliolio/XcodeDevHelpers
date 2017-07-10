@@ -1,0 +1,5 @@
+# Useful script in Build Phase for flagging TODO / FIXME as warning
+KEYWORDS="TODO|FIXME|\?\?\?:|\!\!\!:"
+find "${SRCROOT}" \( -name "*.swift" \) -print0 | \
+xargs -0 egrep --with-filename --line-number --only-matching "($KEYWORDS).*\$" | \
+perl -p -e "s/($KEYWORDS)/ warning: \$1/"

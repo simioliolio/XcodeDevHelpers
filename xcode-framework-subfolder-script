@@ -1,0 +1,6 @@
+# When using Carthage dependency management, use this script to ignore framework subfolders in frameworks, 
+# which can cause iTunes Connect upload to fail due to some frameworks being included twice.
+cd "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/"
+if [[ -d "Frameworks" ]]; then
+rm -fr Frameworks
+fi
