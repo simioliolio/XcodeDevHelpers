@@ -1,13 +1,8 @@
-# Oxygn Swift Conventions #
+# Xcode Development Helpers #
 
 ### Overview ###
 
-This repository describes conventions used when developing iOS code for Oxygn. It contains:
+This repository contains useful documents for use when developing with Xcode.
 
 * A template .gitignore to be used as a starting point for all projects
-* A list of Swift coding conventions.
 * Some useful Xcode scripts
-
-### Contact ###
-
-* simon@oxygn.io
